@@ -1,0 +1,160 @@
+body{
+    background-image: url(wallpaper.jpg);
+    color: #666666;
+    font-family: "Helvetica Neue","Cambria";
+}
+
+link{
+    color:#737373;
+}
+
+link:hover{
+    color: white;
+}
+
+
+/* menu */
+.affix {
+    top: 0;
+    width: 100%;
+}
+
+.affix + .container-fluid {
+    padding-top: 70px;
+}
+
+.container-fluid-color {
+    background-image: url("Ahri.jpg");
+    color:#fff;
+    height:250px;
+}   
+
+.container.menu{
+    border-bottom: 0.5px solid #e6e6e6;
+    padding: 20px 0;
+    background-color: white;
+    opacity: 0.8;
+    width: 100%;
+}
+
+.container.menu button{
+    float: right;  
+}
+
+.right {
+    float: right;
+}
+.left {
+    margin-top: -60px;
+    margin-left: 20px;
+    float: left;
+}
+
+#centro {
+    width:60px;
+    height:60px;
+    position:absolute;
+    margin-top: 10px;
+    left:48%;
+}
+
+.login-center {
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 50px;
+    top: 10%;
+    height: 400px;
+    width: 400px;
+    background-color: rgba(51, 51, 51,0.8);
+    border-radius: 5px;
+    color: #f2f2f2;
+}
+/* submenu */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    margin-top: 10px;
+    padding: 6px 10px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    border: 1px solid #00cc99;
+    border-radius: 8px;
+}
+
+
+/* botões */
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    font-family: Cambria;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  	-ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 2px solid transparent;
+}
+
+.btn.simple {
+    float: right;
+    margin-top: -40px;
+    color:#666666;
+    background-color: white;
+    border: 2px solid #666666;
+    border-radius: 5px;
+}
+
+.btn.simple:hover {
+    color: white;
+    background-color: #666666;
+    border-color: 2px solid white;
+    border-radius: 5px;
+}
+
+.btn.colors{
+    background-color:white;
+    color:#666666;
+}
+
+.btn.colors.default:hover {
+    background-color:white;
+    color:#00cc99;
+    border-bottom: 3px solid #00cc99;
+}
+
+.btn.colors.primary:hover {
+    background-color:white;
+    color:#e96900;
+    border-bottom: 3px solid #e96900;
+}
+
+.btn.colors.success:hover {
+    background-color:white;
+    color:#ae81ff;
+    border-bottom: 3px solid #ae81ff;
+}
+
+.btn.colors.info:hover {
+    background-color:white;
+    color: #2973b7;
+    border-bottom: 3px solid #2973b7;
+}
+
+.btn.colors.warning:hover {
+    background-color:white;
+    color:#34495e;
+    border-bottom: 3px solid #34495e;
+}

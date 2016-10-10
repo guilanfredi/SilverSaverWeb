@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SILVER TEAM</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </head>
+<body>
+    
+<div class="">
+    <div class="left">
+        <h1><img src="logo2.png" height="60" width="60">TEAM SILVER</h1>
+    </div>
+
+ <!--   <div class="right" >
+        <button type="button" class="btn simple"><i class="fa fa-sign-in" aria-hidden="true"></i>   Cadastre-se</button>
+    </div>    
+ -->
+  
+    <div class="container login-center">
+        <h2>Faça seu login</h2>
+        <br>
+        <form id="formCadastro">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Coloque seu email">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Senha:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Coloque sua senha">
+            </div>
+            
+            <button type="submit" style="margin-top: 2px;" class="btn simple">login</button>
+            <br>
+            <br>
+            
+            <h8>Novo por aqui? Crie sua <a href="#" style="color:#b3b3b3">conta</a>.</h8>
+        </form>
+</div>
+
+</div>
+
+    </body>
+    
+    <script>
+    $("#formCadastro").validate({
+        rules: {
+            field: {
+                required: true,
+                email: true
+            }
+        }
+    });
+    </script>
